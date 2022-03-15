@@ -1,10 +1,10 @@
 body{
-  background-color: #F8FA89;
+  background-color: #0A0113;
 }
 .text-item{
   text-align: center;
   font-family: monospace; Monaco;
-  font-weight: 700;
+  font-weight: 500;
   color: white;
   font-size: 40px;
 }
@@ -22,20 +22,19 @@ body{
   display: grid;
   column-gap: 100px;
   grid-template-columns: auto auto auto;
-  background-color: #F8FA89;
-  height: 650px;
+  background-color: #150227;
+  height: 550px;
   padding: 75px;
 }
-
 .grid-item {
-  background-color: #DEBB49;
+  background-color: #360568;
   border: 1px;
   padding: 20px;
   font-size: 20px;
   border-radius: 5%;
 }
 .topnav{
-  background-color: #2EA9DD;
+  background-color: #360568;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -60,39 +59,20 @@ body{
 .ranks-button{
   border: 1px;
   border-radius: 7%;
-  background-color: #7A6622;
+  background-color: #150227;
   width: 25%;
   font-size: 20px;
 }
-.dropbtn {
-  background-color: #7A6622;
-  color: white;
-  padding: 12px;
-  font-size: 20px;
-  border: none;
-  cursor: pointer;
+.ranks-button.active{
+  border: 1px;
   border-radius: 7%;
+  background-color: #150227;
+  width: 25%;
+  font-size: 20px;
 }
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #443813;
-  min-width: 160px;
-  z-index: 1;
-}
-.dropdown-content a {
-  color: white;
-  padding: 10px
-  text-decoration: none;
-  display: block;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown:hover .dropbtn {
-  background-color: #443813;
+.current-button{
+  border: 1px;
+  border-radius: 7%;
+  background-color: #150227;
+  font-size: 20px;
 }
