@@ -56,6 +56,16 @@ body{
   justify-content: space-around;
   padding: 12px;
 }
+.server{
+  display: flex;
+  justify-content: flex-start;
+  padding: 12px;
+}
+.queue{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
 .ranks-button{
   border: 1px;
   border-radius: 7%;
@@ -75,4 +85,8 @@ body{
   border-radius: 7%;
   background-color: #150227;
   font-size: 20px;
+}
+.radio{
+  height: 20px;
+  width: 20px;
 }
